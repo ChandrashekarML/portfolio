@@ -140,7 +140,20 @@ export default function App() {
             <p><strong>Email:</strong> {PROFILE.email}</p>
             <p><strong>LinkedIn:</strong> <a href={PROFILE.linkedin}>Profile</a></p>
             <p><strong>GitHub:</strong> <a href={PROFILE.github}>Profile</a></p>
+            <a
+            href="\src\resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+            type="button"
+            >
+            View Resume
+            </a>
+            <br></br>
+            <br></br>
             <a href={PROFILE.resume} download className="btn">Download Resume</a>
+
+
           </div>
         </section>
 
